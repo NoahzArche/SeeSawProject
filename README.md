@@ -2,9 +2,9 @@
 
 **Getting the necessary programming environment System workbench STM32**
 
-- Go to `http://www.openstm32.org/HomePage`
+<!-- - Go to `http://www.openstm32.org/HomePage`] 
 - Create an account on the website and login
-- At the end of Step 1 on the homepage, go to the download area `http://www.openstm32.org/Downloading%2Bthe%2BSystem%2BWorkbench%2Bfor%2BSTM32%2Binstaller`
+- At the end of Step 1 on the homepage, go to the download area `http://www.openstm32.org/Downloading%2Bthe%2BSystem%2BWorkbench%2Bfor%2BSTM32%2Binstaller`]
 
 --------------------------------------------------------------------------
 **A note about navigating on your computer using the terminal**
@@ -62,5 +62,5 @@ You should now have access to all the code required to set up the Seesaw in a fo
 
 **Trouble shooting**
 
-- If your Seesaw reacts very strongly at the beginning, try to go to folder "userApps" to file "tControl.c" and lower the motor base spped "uiMotorBaseSpeed" and possibly also the scaling factor of the input commands "dAngleCorrectionConst". 
+<!-- - If your Seesaw reacts very strongly at the beginning, try to go to folder "userApps" to file "tControl.c" and lower the motor base spped "uiMotorBaseSpeed" and possibly also the scaling factor of the input commands "dAngleCorrectionConst". 
 - If you manage to compile the Seesaw code but cannot run it due to an error similar to "OCD ...", very likely you have to click "Run As..." by right-clicking on your Seesaw project folder and then select the lowest option "Run Configurations". Here it is important that in the tab "Main" the "Target Information" at the bottom is set to: Mcu: "STM32L432KCUx", Board: "NUCLEO-L432KC"
