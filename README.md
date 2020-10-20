@@ -50,6 +50,9 @@ Setup steps:
 You should now have access to all the code required to set up the Seesaw in a folder of your choosing. 
 
 --------------------------------------------------------------------------
+
+--!>
+
 **Running the code**
 - Open the *System Workbench* (STM32) where you installed it in the previous steps
 - Click: File->Open Projects from file system....  
